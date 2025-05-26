@@ -1,16 +1,28 @@
-# Core libraries
+# Core Libraries
 numpy
 scikit-learn
 
-# PDF extraction
+# Vector Search
+faiss-cpu
+
+# Embeddings
+sentence-transformers
+
+# PDF Extraction
 PyMuPDF
 
-# Environment variables
+# Environment Variables
 python-dotenv
 
-# Gemini API
+# FastAPI Server
+fastapi
+uvicorn[standard]
+
+# Google Gemini API
 google-generativeai
 
-# Optional (for UI)
+# Optional: Frontend
 streamlit
-uvicorn[standard]
+
+# Optional: HTTP client
+requests
