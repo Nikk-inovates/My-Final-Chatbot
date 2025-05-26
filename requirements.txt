@@ -13,3 +13,4 @@ google-generativeai
 
 # Optional (for UI)
 streamlit
+uvicorn[standard]
